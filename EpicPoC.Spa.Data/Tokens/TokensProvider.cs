@@ -1,9 +1,11 @@
-﻿namespace EpicPoC.Spa.Data.Tokens;
+﻿using SqliteWasmHelper;
+
+namespace EpicPoC.Spa.Data.Tokens;
 
 public class TokensProvider : ITokensProvider
 {
-    private readonly ApplicationDbContext _dbContext;
-    public TokensProvider(ApplicationDbContext dbContext)
+    private readonly ISqliteWasmDbContextFactory<ApplicationDbContext> _dbContext;
+    public TokensProvider(ISqliteWasmDbContextFactory<ApplicationDbContext> dbContext)
     {
         _dbContext = dbContext;
     }
