@@ -1,0 +1,19 @@
+﻿@inject IShoppersProvider ShoppersProvider
+
+@foreach (var shopper in Shoppers)
+{
+    @ChildContent(shopper)
+}
+
+@code {
+    [Parameter]
+    public RenderFragment<ShopperResponse> ChildContent { get; set; }
+
+    private List<ShopperResponse> Shoppers { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Shoppers = await ShoppersProvider.GetShoppers();
+        Console.WriteLine("GetShoppers " + Shoppers.Count);
+    }
+}

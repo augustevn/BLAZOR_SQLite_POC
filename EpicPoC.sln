@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicPoC.Spa.Server", "EpicPoC.Spa.Server\EpicPoC.Spa.Server.csproj", "{848B4E10-E3F1-4156-AAC7-0A0B95617AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicPoC.Spa.Client", "EpicPoC.Spa.Client\EpicPoC.Spa.Client.csproj", "{B1D780AC-4223-4D20-A7DE-27786E82B947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicPoC.Spa.Data", "EpicPoC.Spa.Data\EpicPoC.Spa.Data.csproj", "{BA5D99E4-6052-40A1-8997-6CD96B0954FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicPoC.Spa._Shared", "EpicPoC.Spa._Shared\EpicPoC.Spa._Shared.csproj", "{7CC7F6BB-A7F4-4254-AD45-0CD126AB2ED2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{848B4E10-E3F1-4156-AAC7-0A0B95617AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848B4E10-E3F1-4156-AAC7-0A0B95617AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848B4E10-E3F1-4156-AAC7-0A0B95617AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848B4E10-E3F1-4156-AAC7-0A0B95617AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D780AC-4223-4D20-A7DE-27786E82B947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D780AC-4223-4D20-A7DE-27786E82B947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D780AC-4223-4D20-A7DE-27786E82B947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D780AC-4223-4D20-A7DE-27786E82B947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5D99E4-6052-40A1-8997-6CD96B0954FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5D99E4-6052-40A1-8997-6CD96B0954FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5D99E4-6052-40A1-8997-6CD96B0954FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5D99E4-6052-40A1-8997-6CD96B0954FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC7F6BB-A7F4-4254-AD45-0CD126AB2ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC7F6BB-A7F4-4254-AD45-0CD126AB2ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC7F6BB-A7F4-4254-AD45-0CD126AB2ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC7F6BB-A7F4-4254-AD45-0CD126AB2ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
